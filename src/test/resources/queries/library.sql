@@ -22,3 +22,6 @@ SELECT * from books where name='Book Borrow 2';
 SELECT b.name,b_c.name from books b
                                 inner join book_categories b_c
                                            on b.book_category_id=b_c.id where b.name='Book Borrow 2';
+
+select name, author, isbn from books
+where name = 'Head First Java';
